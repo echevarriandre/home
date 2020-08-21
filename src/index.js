@@ -8,10 +8,10 @@ import { faPen } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   const links = {
-    'cloud': ['gmail x', 'gmail e', 'google drive', 'google photos'],
+    'cloud': ['gmail x', 'gmail e', 'gdrive', 'gphotos'],
     'social': ['youtube', 'reddit', 'twitch', 'twitter', 'whatsapp'],
     'pirating': ['fake email', 'nyaa', 'rarbg', 'fitgirl', 'cs.rin.ru', 'drive bypass', 'r/piracy'],
-    'services': ['github', 'bitbucket', 'google maps', 'wetransfer'],
+    'services': ['github', 'bitbucket', 'gmaps', 'wetransfer'],
   };
 
   let linksJSX = []
@@ -55,11 +55,11 @@ function App() {
             <span className="text-green-500"> > </span> ddg
 
             <div class="mt-4">
-              <input type="text" className="caret-input w-3/4 p-2 bg-gray-800 rounded" placeholder="" autoFocus/>
+              <input type="text" className="caret-input md:w-3/4 w-64 p-2 bg-gray-800 rounded" autoFocus/>
             </div>
           </section>
 
-          <section id="links-container" className="flex">
+          <section id="links-container" className="md:flex">
             {linksJSX}
           </section>
         </div>
