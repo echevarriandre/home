@@ -1,4 +1,7 @@
+.caret-input {
+  caret-color: #718096;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
