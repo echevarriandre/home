@@ -20,7 +20,7 @@ function App() {
     let children = [];
     linkEntries[i][1].forEach((element, j) => {
       children.push(
-        <a href="https://www.example.com" className="text-gray-600 hover:text-red-500 duration-200 cursor-pointer block">
+        <a href="https://www.example.com" className="text-gray-600 hover:text-red-500 duration-200 cursor-pointer clear-both float-left inline-block">
           {element}
         </a>
       );

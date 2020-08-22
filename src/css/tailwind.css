@@ -2,6 +2,10 @@
   caret-color: #718096;
 }
 
+body {
+  @apply cursor-default
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
