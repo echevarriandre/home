@@ -1,11 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .caret-input {
   caret-color: #718096;
 }
 
 body {
-  @apply cursor-default
+  @apply cursor-default;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+::-moz-selection { /* Code for Firefox */
+  @apply text-white;
+  @apply bg-green-500;
+}
+
+::selection {
+  @apply text-white;
+  @apply bg-green-500;
+}
